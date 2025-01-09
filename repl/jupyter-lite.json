@@ -1,5 +1,15 @@
 {
   "jupyter-lite-schema-version": 0,
+  "LiteBuildConfig": {
+    "ignorePlugins": [
+      // Try the main extension
+      "@jupyterlab/filebrowser-extension",
+      // Sometimes you also need the sub-plugins
+      "@jupyterlab/filebrowser-extension:browser",
+      "@jupyterlab/filebrowser-extension:download",
+      "@jupyterlab/filebrowser-extension:drive"
+    ]
+  },
   "jupyter-config-data": {
     "disabledExtensions": [
       "@jupyterlab/filebrowser-extension:browser",
