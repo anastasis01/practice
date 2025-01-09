@@ -3,6 +3,9 @@
   "jupyter-config-data": {
     "disabledExtensions": [
       "@jupyterlab/filebrowser-extension:browser",
+      "@jupyterlab/filebrowser-extension:drive",
+      "@jupyterlab/filebrowser-extension:download",
+      "@jupyterlab/filebrowser-extension:open-with",
       "@jupyterlab/drawio-extension",
       "jupyterlab-kernel-spy",
       "jupyterlab-tour"
