@@ -1,0 +1,7 @@
+{
+  "LiteBuildConfig": {
+    "ignorePlugins": [
+      "@jupyterlab/filebrowser-extension"
+    ]
+  }
+}
